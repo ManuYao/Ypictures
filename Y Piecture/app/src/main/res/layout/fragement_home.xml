@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="150dp"
-        android:layout_height="200dp"
-        android:src="@drawable/nouriture" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/horizontal_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="150dp"
-        android:layout_height="200dp"
-        android:src="@drawable/chien"/>
-
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="150dp"
-        android:layout_height="200dp"
-        android:src="@drawable/hallow"/>
-
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_page_last_pictures_sesction"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        style="aq"/>
 </LinearLayout>

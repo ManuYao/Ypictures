@@ -4,7 +4,7 @@
 
     <!-- Page d'accueil -->
     <string name="home_page_title">A découvrir</string>
-    <string name="home_page_last_pictures_sesction">TopPicture</string>
+    <string name="home_page_last_pictures_sesction">Dernière pictures</string>
 
     <!-- Page like -->
     <string name="like_page_title">Aime Pictures</string>
