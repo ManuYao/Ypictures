@@ -1,0 +1,35 @@
+<resources>
+    <!-- Nom Apps -->
+    <string name="app_name">Y Pictures</string>
+
+    <!-- Page d'accueil -->
+    <string name="home_page_title">A découvrir</string>
+    <string name="home_page_last_pictures_sesction">TopPicture</string>
+
+    <!-- Page like -->
+    <string name="like_page_title">Aime Pictures</string>
+
+    <!-- Page add Pictures -->
+    <string name="add_Picture_page_title">Ajout Pictures</string>
+    <string name="add_page_upload_button_galerie">Galerie image</string>
+    <string name="add_page_upload_button_camera">Prendre Pictures</string> <!-- Futures -->
+    <string name="add_page_description_input">@string/item_picture_name</string>
+
+    <string-array name="add_pictures_page_grow_spinner_input">
+        <item>2H</item>
+        <item>15H</item>
+        <item>25H</item>
+    </string-array>
+
+    <string name="add_pictures_page_confirm_buttun">Confirme</string>
+
+    <!-- Pictures popup details -->
+    <string name="popup_pictures_name">Picture Name</string>
+    <string name="popup_pictures_title">Titre</string>
+    <string name="popup_pictures_subtitle">Nom titre</string>
+
+    <!-- Pictures customise -->
+
+    <string name="item_picture_name">Nom Picture></string>
+    <string name="item_picture_user">Nom Client></string>
+</resources>

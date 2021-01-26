@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">20dp</dimen>
+
+   <!-- <dimen name="default_title_margin_x">11dp</dimen>
+    <dimen name="default_title_margin_y">48dp</dimen>-->
+</resources>
