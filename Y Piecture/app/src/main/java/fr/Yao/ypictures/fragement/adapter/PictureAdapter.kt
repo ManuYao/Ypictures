@@ -7,7 +7,7 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import fr.Yao.ypictures.R
 
-class PictureAdapter : RecyclerView.Adapter<PictureAdapter.ViewHolder>(){
+class PictureAdapter(private val layoutId: Int) : RecyclerView.Adapter<PictureAdapter.ViewHolder>(){
 
     //boite de rangement tous les composants à controler
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
@@ -17,7 +17,7 @@ class PictureAdapter : RecyclerView.Adapter<PictureAdapter.ViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater
                 .from(parent.context)
-                .inflate(R.layout.item_horizontal_picture, parent, false)
+                .inflate(layoutId, parent, false)
 
         return ViewHolder(view)
     }

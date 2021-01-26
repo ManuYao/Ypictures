@@ -30,6 +30,6 @@
 
     <!-- Pictures customise -->
 
-    <string name="item_picture_name">Nom Picture></string>
-    <string name="item_picture_user">Nom Client></string>
+    <string name="item_picture_name">Nom Picture</string>
+    <string name="item_picture_user">Nom Client</string>
 </resources>
