@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <TextView
         android:id="@+id/app_title"
@@ -34,6 +35,6 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="100dp"/>
-    <!--android:background="@color/Blue"-->
+        android:layout_marginTop="100dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

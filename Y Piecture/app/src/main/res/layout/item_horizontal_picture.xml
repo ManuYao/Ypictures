@@ -8,10 +8,18 @@
     app:cardElevation="5dp"
     android:layout_marginLeft="@dimen/default_margin">
 
-    <androidx.appcompat.widget.AppCompatImageView
+    <ImageView
         android:id="@+id/image_item"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/yao"/>
+
+    <ImageView
+        android:id="@+id/like_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="@dimen/default_margin"
+        android:src="@drawable/ic_nolike"
+        android:tint="@color/DarkgGray"/>
 </androidx.cardview.widget.CardView>

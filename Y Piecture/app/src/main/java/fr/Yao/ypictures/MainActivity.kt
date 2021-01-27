@@ -11,7 +11,7 @@ import fr.Yao.ypictures.fragement.HomeFragement
 
         //injecter le fragement dans notre boite (fragement_container)
         val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.fragment_container, HomeFragement())
+        transaction.replace(R.id.fragment_container, HomeFragement(this))
         transaction.addToBackStack(null)
         transaction.commit()
     }
